@@ -1,4 +1,4 @@
-import * as types from '@/actions/mutation-types.js';
+import * as types from '../../actions/mutation-types.js';
 
 const initialState = {
     homeName: '快和财税'

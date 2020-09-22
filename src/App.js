@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-
-import Home from './containers/home'
+import { routes, createRotes } from './routes'
 
 function App() {
   return (
     <div className="App">
-      <Home></Home>
+      {createRotes(routes)}
     </div>
   );
 }
